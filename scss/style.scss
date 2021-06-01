@@ -5,6 +5,11 @@
 @import "home.scss";
 @import "features.scss";
 @import "portfolio.scss";
+@import "price.scss";
+@import "team.scss";
+@import "skills.scss";
+@import "clients.scss";
+@import "footer.scss";
 
 * {
   box-sizing: border-box;
@@ -60,4 +65,16 @@ html {
     background-color: $secondaryFontColor;
     margin: 0 auto 2rem;
   }
+
+  button.owl-dot.active {
+    span {
+      background: $secondaryFontColor !important;
+    }
+  }
+  .footer ul.social li a{
+    color: #fff;
+}
+.footer ul.social li a:hover{
+    color: $secondaryFontColor;
+}
 }
